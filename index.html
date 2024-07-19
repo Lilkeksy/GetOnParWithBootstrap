@@ -12,7 +12,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
   <style>
 body{
-  background-color: lightyellow;
+  background-color: #B4B8B8;
+    background: linear-gradient(270deg, #B4B8B8, #eb6b6b);
+    background-size: 400% 400%;
+    animation: gradientAnimation 10s ease infinite;
+}
+@keyframes gradientAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 .logname{
 font-family:'Times New Roman', Times, serif
